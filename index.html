@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Interactive Rating Componenet challenge by Frontend Mentor">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Interactive Rating Componenet</title>
+</head>
+
+<body>
+
+  <section class="section-main">
+    <div class="star">
+      <img src="images/icon-star.svg" alt="star icon">
+    </div>
+
+    <h1>How did we do?</h1>
+
+    <p class="paragraph">Please let us know how we did with your support request. All feedback is appriciated to help us
+      improve our
+      offering!</p>
+
+    <ul>
+      <li><button class="btn-number-background">1</button></li>
+      <li><button class="btn-number-background">2</button></li>
+      <li><button class="btn-number-background">3</button></li>
+      <li><button class="btn-number-background">4</button></li>
+      <li><button class="btn-number-background">5</button></li>
+    </ul>
+
+    <button class="btn-submit" id="submit">SUBMIT</button>
+  </section>
+
+  <!--Customer submission page finished-->
+
+
+  <!--Customer thank you page starting-->
+
+  <section class="section-thank-you hidden">
+
+    <img src="images/illustration-thank-you.svg" alt="thank you icon" class="thank-you-icon">
+
+    <div class="you-selected">
+      <p>You Selected <span id="rating"></span> out of 5</p>
+    </div>
+
+    <h1 class="thank-you">Thank You!</h1>
+
+    <p class="thank-you-paragraph">We appriciate you taking the time to give a rating. If you ever need more support,
+      don't hesitate to get in touch!</p>
+
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
